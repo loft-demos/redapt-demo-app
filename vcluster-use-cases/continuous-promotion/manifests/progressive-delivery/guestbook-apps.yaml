@@ -20,7 +20,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: '{REPLACE_GIT_BASE_URL}/{REPLACE_ORG_NAME}/{REPLACE_REPO_NAME}'
+    repoURL: 'https://github.com/loft-demos/redapt-demo-app'
     targetRevision: HEAD
     path: vcluster-use-cases/continuous-promotion/guestbook/stages/dev
   destination:
@@ -46,7 +46,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: '{REPLACE_GIT_BASE_URL}/{REPLACE_ORG_NAME}/{REPLACE_REPO_NAME}'
+    repoURL: 'https://github.com/loft-demos/redapt-demo-app'
     targetRevision: HEAD
     path: vcluster-use-cases/continuous-promotion/guestbook/stages/staging
   destination:
@@ -72,7 +72,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: '{REPLACE_GIT_BASE_URL}/{REPLACE_ORG_NAME}/{REPLACE_REPO_NAME}'
+    repoURL: 'https://github.com/loft-demos/redapt-demo-app'
     targetRevision: HEAD
     path: vcluster-use-cases/continuous-promotion/guestbook/stages/prod
   destination:
